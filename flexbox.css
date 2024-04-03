@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  background-color: rgb(203, 200, 200);
+}
+
+.flex-container > div {
+  background-color: green;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+}
