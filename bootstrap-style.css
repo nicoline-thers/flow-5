@@ -1,0 +1,10 @@
+.btn-success {
+    background-color: limegreen;
+    border-color: hsl(120, 61%, 44%);
+}
+
+.bi-arrow-through-heart {
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+}

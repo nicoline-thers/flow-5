@@ -1,0 +1,58 @@
+.img {
+    width: 100%;
+}
+
+.one {
+    display: none;
+}
+
+.two {
+    display: block;
+}
+
+.icons {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 30px 10px;
+}
+
+.row {
+    display:flex;
+    justify-content: space-between;
+}
+
+.bg-body-tertiary {
+    background-color: #E9ECEF !important;
+}
+
+@media screen and (min-width:1024px) {
+    .one {
+        display: block;
+    }
+
+    .two {
+        display: none;
+    }
+}
+
+.btn , btn-primary {
+    background-color: #E17371;
+    border: none;
+}
+
+footer {
+    background-color: #E9ECEF;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
